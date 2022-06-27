@@ -1,13 +1,11 @@
 html {
   background-color: black;
   color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 body {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  text-align: center;
 }
 
 a {
@@ -16,6 +14,8 @@ a {
 }
 
 .header {
+  display: flex;
+  flex-direction: column;
   align-items: center;
 }
 
@@ -27,7 +27,13 @@ a {
   align-self: center;
 }
 
-.travel_guide h1 {
+.travel_guide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.travel_guide h2 {
   font-family: Verdana;
   font-weight: 300;
   font-size: 42px;
@@ -37,5 +43,10 @@ a {
 .travel_guide h4 {
   font-family: verdana;
   font-size: 21px;
+  color: gray;
+}
+
+.footer {
+  text-align: right;
   color: gray;
 }
